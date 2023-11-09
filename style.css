@@ -1,0 +1,85 @@
+#cont{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 380px;
+    height: 500px;
+    position: relative;
+    
+}
+img{
+    z-index: 2;
+}
+#parent{
+    display: flex;
+    /*border-style: solid;*/
+    position: relative;
+}
+#rg{
+    /*border-style: solid;*/
+    left: 0;
+}
+#fg{
+    position: absolute;
+    /*border-style: solid;*/
+    right: 0;
+}
+p{
+    font-size: 12px;
+}
+body{
+    background-color: rgb(71, 71, 94);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.card{
+    z-index: 1;
+    margin-top: 100px;
+    /* From https://css.glass */
+    /*transparency may test*/
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    border: none;
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+}
+.form-control{
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+
+    outline: none;
+
+    
+}
+.form-control::placeholder{
+    color: white;
+}
+#circle-1{
+    background-color: rgb(62, 88, 173);
+    /*border-style: solid;*/
+    position: absolute;
+    left: 5px;
+    top: 65px;
+    z-index: -1;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#circle-2{
+    background-color: rgb(62, 88, 173);
+    /*border-style: solid;*/
+    position: absolute;
+    right: 5px;
+    bottom: 55px;
+    z-index: -1;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
