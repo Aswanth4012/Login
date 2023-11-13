@@ -2,7 +2,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    width: 380px;
+    width: 320px;
     height: 500px;
     position: relative;
     
@@ -49,6 +49,7 @@ body{
 .form-control{
     border: none;
     background: rgba(255, 255, 255, 0.1);
+    color: white;
 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.1px);
@@ -60,8 +61,15 @@ body{
 
     
 }
+.form-control:focus{
+    outline: none;
+    /*appearance: none;
+    -webkit-appearance: none;*/
+}
 .form-control::placeholder{
-    color: white;
+    color: rgb(253, 253, 253);
+    font-size: 12px;
+      
 }
 #circle-1{
     background-color: rgb(38, 61, 139);
@@ -136,4 +144,10 @@ body{
 
 .a{
     color: rgb(146, 74, 74)
+}
+#text-light1{
+    cursor: pointer;
+}
+#text-light2{
+    cursor: pointer;
 }
