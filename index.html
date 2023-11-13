@@ -15,14 +15,14 @@
                 <div id="circle-2"></div>
                 <div class="card mx-auto" style="width: 80%;">
                     <div class="card-body">
-                        <h2 class="card-title text-light mt-3">LOGIN</h1>
+                        <h2 class="card-title mt-3" id="title" style="color: white;">LOGIN</h1>
                         <form>
                         <input type="text" class="form-control" placeholder="USERNAME" id="inp-usr">
                         <input type="password" class="form-control mt-4" placeholder="PASSWORD" id="inp-pwd">
                         <button type="submit" class="btn btn-info mt-4" style="width: 100%;">SUBMIT</button>
                         <div id="parent" class="mt-4">
-                            <div id="rg"><p class="text-light">REGISTER</p></div>
-                            <div id="fg"><p class="text-light">FORGOT PASSWORD</p></div>
+                            <div id="rg"><p id="text-light1" style="color: white;">REGISTER</p></div>
+                            <div id="fg"><p id="text-light2" style="color:white">FORGOT PASSWORD</p></div>
                         </div>
                     </form>
                     </div>
@@ -52,6 +52,9 @@
                     $("#circle-2").css('background','red');
                     $(".btn").css('background-color','red');
                     $(".btn").css('color','white');
+                    $("#title").css('color','white');
+                    $("#text-light1").css('color','white');
+                    $("#text-light2").css('color','white');
 
                 }),
                 $("#heavy-blue").click(function(){
@@ -60,6 +63,9 @@
                     $("#circle-2").css('background','rgb(62, 88, 173)');
                     $(".btn").css('background-color','rgb(62, 88, 173)');
                     $(".btn").css('color','white');
+                    $("#title").css('color','white');
+                    $("#text-light1").css('color','white');
+                    $("#text-light2").css('color','white');
 
                 }),
                 $("#grey-black").click(function(){
@@ -68,7 +74,20 @@
                     $("#circle-2").css('background','rgb(206, 61, 8)');
                     $(".btn").css('background-color','rgb(206, 61, 8)');
                     $(".btn").css('color','white');
+                    $("#title").css('color','white');
+                    $("#text-light1").css('color','white');
+                    $("#text-light2").css('color','white');
 
+                }),
+                $("#sandle").click(function(){
+                    $("body").css('background','sandybrown');
+                    $("#circle-1").css('background','rgb(247, 107, 92)');
+                    $("#circle-2").css('background','rgb(247, 107, 92)');
+                    $(".btn").css('background-color','rgb(247, 107, 92)');
+                    $(".btn").css('color','black');
+                    $("#title").css('color','black');
+                    $("#text-light1").css('color','black');
+                    $("#text-light2").css('color','black');
                 })
 
 
