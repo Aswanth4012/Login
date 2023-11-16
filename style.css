@@ -8,7 +8,14 @@
     
 }
 img{
+    position: absolute;
     z-index: 2;
+    height: 13em;
+    margin-top: -0px;
+    margin-left: 115px;
+    
+    
+    
 }
 #parent{
     display: flex;
@@ -35,14 +42,14 @@ body{
 }
 .card{
     z-index: 1;
-    margin-top: 88px;
+    margin-top: 105px;
     /* From https://css.glass */
     /*transparency may test*/
     background: rgba(255, 255, 255, 0);
-    border-radius: 16px;
+    /*border-radius: 16px;*/
     border: none;
 
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     backdrop-filter: blur(9.1px);
     -webkit-backdrop-filter: blur(9.1px);
 }
